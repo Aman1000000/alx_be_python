@@ -1,10 +1,9 @@
-
 while True:
-
     task = input("Enter your task: ")
     priority = input("Priority (high/medium/low): ")
     time_bound = input("Is it time-bound? (yes/no): ")
 
+    
     match priority:
         case "high":
             reminder = f"'{task}' is a high priority task"
@@ -13,10 +12,10 @@ while True:
         case "low":
             reminder = f"'{task}' is a low priority task"
         case _:
-            reminder = "Invalid priority level."
-            print(reminder)
-            continue  
-    
+            print("Invalid priority level.")
+            continue 
+
+  
     if time_bound == "yes":
         reminder += " that requires immediate attention today!"
     elif time_bound == "no":
@@ -25,10 +24,13 @@ while True:
         print("Invalid response for time-bound. Please enter 'yes' or 'no'.")
         continue  
 
-    
+    r
     print(reminder)
 
- 
+    
     another = input("Do you want to enter another task? (yes/no): ")
     if another.lower() != "yes":
+        break  
+ 
+    
   
