@@ -1,0 +1,4 @@
+number = int(input(" Enter a number to see its multiplication table:"))
+for num in range (1,11):
+  result = number * num
+print (str(number) + "x" 5+ str (num) +"="+str (result) )
