@@ -6,7 +6,7 @@ asterisk = "*"
 while counter < size:
     row = 0  
     while row < size:
-        print(asterisk, end = " ")  
+        print("*", end = " ")  
         row += 1
     print()  
     counter += 1
