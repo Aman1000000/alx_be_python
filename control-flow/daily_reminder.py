@@ -7,6 +7,6 @@ while loop <= 100:
   loop = True
   print (f"{task} is a {priority} priority task, that requires immediate attention today! ")
  elif time == "no":
-  print( (f"{task} is a {priority} priority task. Consider completing it when you have free time.") )
+  print( (f"{task} is a {priority} priority task. Consider completing it when you have free time. ") )
   
   
