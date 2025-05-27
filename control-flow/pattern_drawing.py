@@ -1,10 +1,11 @@
+size = int(input ("Enter the size of the pattern: "))
 row = 0
 counter = 0
 asterisk = "*"
 
-while counter < 4:
+while counter < size:
     row = 0  
-    while row < 4:
+    while row < size:
         print(asterisk, end = " ")  
         row += 1
     print()  
