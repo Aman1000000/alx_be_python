@@ -24,7 +24,7 @@ while True:
         print("Invalid response for time-bound. Please enter 'yes' or 'no'.")
         continue  
 
-    r
+    
     print(reminder)
 
     
