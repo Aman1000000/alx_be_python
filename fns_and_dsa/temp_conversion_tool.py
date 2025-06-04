@@ -23,4 +23,3 @@ elif option == "f":
     convert_to_celsius(temperature)  # Convert Fahrenheit to Celsius
 else:
     print("Please input 'C' or 'F'")
-
