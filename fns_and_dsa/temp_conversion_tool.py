@@ -1,4 +1,5 @@
-
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 def convert_to_celsius(fahrenheit):
     
     celsius = (5/9) * (fahrenheit - 32)
@@ -16,6 +17,5 @@ elif option == "f":
     convert_to_celsius(temperature) 
 else:
     print("Please input 'C' or 'F'")
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+
 
