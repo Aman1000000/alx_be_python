@@ -24,4 +24,3 @@ elif option == "f":
 else:
     print("Please input 'C' or 'F'")
 
-
