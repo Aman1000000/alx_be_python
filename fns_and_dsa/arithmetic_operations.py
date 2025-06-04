@@ -13,7 +13,7 @@ def perform_operation(num1, num2, operation):
    if num2 != 0:
     print (num1 / num2 )
    elif num2 == 0 :
-   print ("can not divide by zero")
+    print ("can not divide by zero")
   case _:
    print("Invalid data type entered.")
  return perform_operation
