@@ -17,5 +17,5 @@ if option == "c":
 elif option == "f":
     convert_to_celsius(temperature) 
 else:
-    print("Please input 'C' or 'F'")
+    print("Invalid temperature. Please enter a numeric value.")
 
